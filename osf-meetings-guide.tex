@@ -1,0 +1,169 @@
+\documentclass{scrartcl}
+\usepackage[letterpaper, top=1.5cm, left=1.5cm, right=1.5cm, bottom=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\setcounter{secnumdepth}{0} % Remove numbering from sections
+\setlength{\parindent}{0cm} % Remove indent from new paragraph
+\setlength{\parskip}{6pt} % Add line of whitespace after paragraph
+\graphicspath{ {figs/} }
+
+\begin{document}
+\title{\vspace{-1cm}\textbf{OSF Meetings Guide}}
+\subtitle{Preparing for EEID 2023}
+\maketitle
+
+\vspace*{-1cm}
+
+\section{\underline{Submitting Your Poster/Talk}}
+
+This year, EEID is using the Open Science Framework (OSF) as a way for presenters to upload their presentations ahead of the conference, allowing attendees to view them before, during, and after the conference.
+This not only benefits attendees, but also presenters, as it gives the opportunity for viewers to think critically about your work allowing for more detailed and in-depth discussions during the conference.
+While it is not a requirement to upload your presentation, we strongly encourage you to do as a means to enhance the conference experience for everyone.
+
+
+To submit your poster, or talk, you should first create an account on the OSF website (\href{https://osf.io/}{\texttt{https://osf.io/}}) if you do not already have one.
+
+\subsection{Creating an OSF Account}
+
+If you navigate to the OSF website, you will see a button in the top right corner labelled \texttt{Sign Up}.
+Clicking on this will take you to a page where you can create an account.
+The two options we would suggest, as they do not tie you to your institution, are:
+
+\begin{enumerate}
+    \item \textbf{Sign in with ORCiD}: If you have an ORCiD account, you can use this to sign in to OSF, and it will link your ORCiD email to your OSF account.
+    \item \textbf{Email and password}: If you do not have an ORCiD account, you can create an OSF account using your email address and a password.
+    You can always link an ORCiD account to your OSF account later, but you'll want to ensure that the email address you use for your OSF account is the same as the one you use for your ORCiD account to prevent multiple OSF accounts being created if you decide to log in to OSF using ORCiD at a later date.
+\end{enumerate}
+
+\subsection{Emailing Your Poster/Talk}
+
+Once you have created an OSF account, you just need to email your poster/talk to EEID. Please ensure your email comes from your the email address you used to create your OSF account/linked through ORCiD.
+
+\begin{itemize}
+    \item To submit a poster, send an email to: \href{mailto:EEID2023-poster@osf.io}{\texttt{EEID2023-poster@osf.io}}
+    \item To submit a talk, send an email to: \href{mailto:EEID2023-talk@osf.io}{\texttt{EEID2023-talk@osf.io}}
+\end{itemize}
+
+The email should contain three components:
+
+\begin{enumerate}
+    \item \textbf{Email subject}: The title of your poster/talk.
+    If you do not title your email, your poster/talk will not be added to OSF.
+    \item \textbf{Message body}: The abstract of your poster/talk.
+    This will be copied verbatim (without formatting) to the \emph{Wiki} of the OSF project that will be set up, so please do not include any extra text in the body of the email.
+    Like markdown or \LaTeX, to create line breaks in your abstract, you will need to leave a blank line between paragraphs, i.e., 
+
+    \begin{verbatim}
+        This is the first line.
+        
+        This is the second line.
+    \end{verbatim}
+
+    not
+
+    \begin{verbatim}
+        This is the first line.
+        This is the second line.
+    \end{verbatim}
+
+    \item \textbf{Attachment}: The poster/talk file
+\end{enumerate}
+
+\begin{figure}[h]
+    \includegraphics[width=\textwidth]{submission-email.png}
+    \caption{Submission Email}
+\end{figure}
+
+
+
+Upon receiving your email, we will create an OSF project (in your OSF account) for your poster/talk, and upload the file you sent us.
+This project will be linked to the EEID 2023 conference page, and will be publicly viewable, but only editable by you.
+
+\section{\underline{Viewing Posters/Talks}}
+
+Upon submission of your poster/talk, you will receive an email from OSF with two links: the first is a permanent citable URL for your poster/talk project, and the second is a link to the EEID 2023 conference page.
+
+Clicking on the first link (to your project), you will see a page like the one below (you will need to log in to OSF account if you are not already logged in).
+
+\begin{figure}[h]
+    \includegraphics[width=\textwidth]{project-page-01.png}
+    \caption{OSF Project Page}
+\end{figure}
+
+The main things to note on this page are:
+
+\begin{itemize}
+    \item \textbf{Title}: This is the title of your poster/talk, and is exactly what you put in the subject line of your email.
+    \item \textbf{Wiki}: This is where your abstract will be displayed.
+    Clicking on the up-arrow button in the top-right corner of the Wiki box will allow you to edit the abstract, including adding formatting to delineate sections.
+    \item \textbf{Create DOI}: Under the title, there is an option to create a DOI for your poster/talk, that is permanently linked to this project page.
+    \item \textbf{Citation}: Automatically generated citations for your project.
+    \item \textbf{Files}: This shows what files are attached to your project, and where they are stored.
+    By default, your poster file is stored on OSF directly, but you can link other storage services (e.g., Google Drive, Dropbox, etc.) to your OSF account and project, and upload other files to these services that will then be shown here.
+    \item \textbf{Recent Activity}: This shows a log of all changes made to the project, including uploading files, editing the Wiki, etc.
+    \item \textbf{Components}: This shows any subprojects, and linked projects.
+    It is likely that your poster is part of a larger project that contains manuscript files, etc, and if you have these in a separate OSF main project, it would make sense to go to that project and link your poster project to it.
+\end{itemize}
+
+Your poster/talk will also be added to the EEID 2023 conference page/project, which can be accessed at \href{https://osf.io/meetings/EEID2023}{\texttt{https://osf.io/meetings/EEID2023}}
+
+\section{\underline{Editing Your Poster/Talk}}
+
+Once you have submitted your poster/talk, you can edit it at any time by logging in to your OSF account, and going to the project page, accessed by clicking on the \emph{My Projects} button in the website toolbar (or by directly searching for \href{https://osf.io/myprojects/}{\texttt{https://osf.io/myprojects/}}), or by accessing the project link sent to you in the OSF confirmation of submission email.
+Once here, you may need to click on \emph{All my projects and components} button in the left sidebar to show your projects, before navigating to your poster/talk project.
+
+Clicking on the \emph{Wiki} button in the project toolbar will allow you to edit the abstract, using \href{https://www.markdownguide.org/basic-syntax/}{markdown formatting}.
+
+\begin{figure}[h]
+    \includegraphics[width=\textwidth]{wiki-edit.png}
+    \caption{Editing the Wiki}
+\end{figure}
+
+Clicking on the \emph{Files} button in the project toolbar will allow you to add/delete files, as well as viewing the files that have been uploaded to the project.
+
+\subsection{Linking Other Services}
+
+Clicking on the \emph{Add-ons} button in the project toolbar allows you to link other services, like GitHub, Dropbox, Google Drive, OneDrive, etc., to your project, and upload files from these services to your project.
+However, this is a two-step process.
+
+1) First, you need to link the service to your OSF account.
+To do this, first go to your account settings by clicking on your profile picture in the top-right corner of the website, and selecting \emph{Settings}, shown in Figure \ref{fig:addons-account-settings-01}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.5]{addons-account-settings-01.png}
+    \caption{Navigate to Account Settings}
+    \label{fig:addons-account-settings-01}
+\end{figure}
+
+Then, click on the \emph{Configure add-on accounts} button in the left sidebar, and select the service you want to link, as shown in Figure \ref{fig:addons-account-settings-02}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{addons-account-settings-02.png}
+    \caption{Connect Your Add-On Account}
+    \label{fig:addons-account-settings-02}
+\end{figure}
+
+2) Now your OSF account is linked to the service, you can link your project to the service, and specify which files you want to upload to your project.
+To do this, go back to your project page, and click on the \emph{Add-ons} button in the project toolbar, and select the service you want to link, as shown in Figure \ref{fig:addons-project-01}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{addons-project-01.png}
+    \caption{Connect Your Add-On to Your Project}
+    \label{fig:addons-project-01}
+\end{figure}
+
+Then, click on the \emph{Import Account from Profile} button, to start the import process, as shown in Figure \ref{fig:addons-project-02}, and select the appropriate files/folders to be imported.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{addons-project-02.png}
+    \caption{Import the Project-Specific Files}
+    \label{fig:addons-project-02}
+\end{figure}
+
+
+\end{document}
