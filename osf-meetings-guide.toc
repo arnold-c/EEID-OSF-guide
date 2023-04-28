@@ -1,0 +1,14 @@
+\contentsline {section}{\nonumberline \underline {Submitting Your Poster/Talk}}{1}{section*.3}%
+\contentsline {subsection}{\nonumberline Creating an OSF Account}{1}{subsection*.5}%
+\contentsline {subsection}{\nonumberline Linking Your ORCiD Account}{2}{subsection*.7}%
+\contentsline {subsection}{\nonumberline Emailing Your Poster/Talk}{2}{subsection*.9}%
+\contentsline {section}{\nonumberline \underline {Viewing Posters/Talks}}{3}{section*.11}%
+\contentsline {section}{\nonumberline \underline {Editing Your Poster/Talk}}{4}{section*.13}%
+\contentsline {subsection}{\nonumberline Accessing Your Poster/Talk Project}{4}{subsection*.15}%
+\contentsline {subsection}{\nonumberline Editing the Title}{4}{subsection*.17}%
+\contentsline {subsection}{\nonumberline Editing the Wiki (Abstract)}{5}{subsection*.19}%
+\contentsline {subsection}{\nonumberline Adding/Deleting Files}{6}{subsection*.21}%
+\contentsline {subsection}{\nonumberline Linking Other Services}{6}{subsection*.23}%
+\contentsline {section}{\nonumberline \underline {Troubleshooting Tips}}{8}{section*.25}%
+\contentsline {subsection}{\nonumberline Unable to Log In}{8}{subsection*.27}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
